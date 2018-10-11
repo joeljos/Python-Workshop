@@ -5,14 +5,7 @@ d = True
 e = False
 h = b"Hello \xf0\x9f\x98\x8e"
 
-print(a+b,c,d,e,h)
+ds1_list = [a,b,c,d,e,h,"hello world"]
+ds2_dict = {"key1":a,"key2":b,"key3":c}
 
-print(a.lower())
-
-def add(num1, num2):
-    result = num1 + num2
-    return result
-
-a = int(input("give your number : "))
-print(type(a),a)
 
